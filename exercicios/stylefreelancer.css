@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header .container {
+    display: flex;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+
+}
+
+.left,
+.right {
+    display: flex;
+
+    width: 50%;
+
+
+}
+
+.right {
+
+    justify-content: flex-end;
+}
+
+.right a {
+    margin-left: 20px;
+
+}
+
+.left a {
+    margin-left: 20px;
+}
+
+#botton_pink {
+    background: rgb(214, 15, 181);
+    padding: 6px 12px;
+    display: flex;
+    margin-top: 6px;
+    color: white;
+    border-radius: 3px;
+
+
+}
+
+#botton_pink:hover {
+    background: rgb(149, 37, 128);
+
+}
+
+a {
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(55, 72, 226);
+}
+
+.segundo {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+.segundo ul a {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding-left: 0px;
+
+
+}
+
+.segundo ul li {
+    display: inline;
+
+}
+
+.segundo ul {
+    padding-left: 250px;
+
+}
+
+.title {
+
+    padding-top: 200px;
+    margin-left: 250px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+}
+
+h1 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.btn-pink {
+    background: rgb(214, 15, 181);
+    padding: 15px 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-left: 20px;
+
+}
+
+.btn-hollow {
+    background: rgba(0, 0, 0, 0.364);
+    opacity: 0.5;
+    padding: 6px 12px;
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-hollow:hover {
+    background-color: darkgray;
+
+}
+
+section {
+
+    background-image: url("pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.imagem {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 24px;
+
+}
+
+.imagem img {
+    height: 50px;
+
+
+}
+
+.some {
+    font-size: 50px;
+    padding-left: 250px;
+    font-weight: bold;
+
+}
+
+.block-wrapper {
+    gap: 50px;
+    display: flex;
+    
+    
+    
+
+}
+.block-wrapper img {
+    height: 50px;
+}
+
+.block p
+{
+    padding-top: 20px;
+    padding-left: 5px;
+    
+    
+}
+.block-head
+{
+    display: flex;
+    align-items: center;
+}
+.need-something .container { 
+    padding: 40px 0px;
+}
+
+

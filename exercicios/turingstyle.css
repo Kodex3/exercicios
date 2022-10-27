@@ -1,0 +1,64 @@
+.blue {
+    color: blue;
+    font: 18px;
+    font-family:Georgia, 'Times New Roman', Times, sans-serif;
+ }
+ .join
+ {margin-bottom: 24px;
+  padding: 60px 0px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .25px;
+    color: rgb(57, 57, 57);
+}
+
+ .picture{
+justify-content: space-between;
+    display: flex;
+    height: 45px;
+    margin-right: 300px;
+    
+ }
+ .imageback
+ {
+    height: 600px;
+    background-image: url("worldd.jpg");
+    background-size: cover;
+    color: azure;
+    font-size: px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.imageback h2{
+    margin: 40px 0px 40px;
+    padding: 30px;
+    font-size: 40px;
+}
+.imageback p{
+    font-size: 30px;
+}
+.Dad .col {
+    display: flex;
+    background: rgba(0, 0, 0, 0.364);
+    opacity: 0.5;
+    margin-right: 18px;
+
+}
+.Dad {display:flex;}
+
+.Dad .col p { font-size: 24px;
+text-align: justify;
+font-size: 25px;
+padding: ;
+}
+.Dad .col i {  
+ font-size: 35px;
+padding: 20px;
+}
+    .building{
+        display:flex; 
+
+}
+
